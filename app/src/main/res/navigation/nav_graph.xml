@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu_laterl_nav_graph"
+    app:startDestination="@id/catalogoFragment">
+
+
+    <fragment
+        android:id="@+id/adminFragment"
+        android:name="com.estata.libertalia.ui.fragments.AdminFragment"
+        android:label="Lista de productos"
+        tools:layout="@layout/fragment_admin" />
+
+    <fragment
+        android:id="@+id/productoNuevoFragment"
+        android:name="com.estata.libertalia.ui.fragments.ProductoNuevoFragment"
+        android:label="Nuevo producto"
+        tools:layout="@layout/fragment_producto_nuevo" />
+
+    <fragment
+        android:id="@+id/editarProductoFragment"
+        android:name="com.estata.libertalia.ui.fragments.EditarProductoFragment"
+        android:label="Editar producto"
+        tools:layout="@layout/fragment_editar_producto" />
+
+
+    <fragment
+        android:id="@+id/catalogoFragment"
+        android:name="com.estata.libertalia.ui.fragments.CatalogoFragment"
+        android:label="Catalogo"
+        tools:layout="@layout/fragment_catalogo" />
+
+    <fragment
+        android:id="@+id/historialFragment"
+        android:name="com.estata.libertalia.ui.fragments.HistorialFragment"
+        android:label="Historial"
+        tools:layout="@layout/fragment_historial" />
+
+    <fragment
+        android:id="@+id/estadoFragment"
+        android:name="com.estata.libertalia.ui.fragments.EstadoFragment"
+        android:label="Estado"
+        tools:layout="@layout/fragment_estado" />
+
+    <fragment
+        android:id="@+id/contactoFragment"
+        android:name="com.estata.libertalia.ui.fragments.ContactoFragment"
+        android:label="Contacto"
+        tools:layout="@layout/fragment_contacto" />
+    <fragment
+        android:id="@+id/pocesadoFragment"
+        android:name="com.estata.libertalia.ui.fragments.PocesadoFragment"
+        android:label="Compra realizada"
+        tools:layout="@layout/fragment_pocesado" />
+    <fragment
+        android:id="@+id/productoDetailFragment"
+        android:name="com.estata.libertalia.ui.fragments.ProductoDetailFragment"
+        android:label="Detalles del producto"
+        tools:layout="@layout/fragment_producto_detail" />
+    <fragment
+        android:id="@+id/carritoFragment"
+        android:name="com.estata.libertalia.ui.fragments.CarritoFragment"
+        android:label="Carrito"
+        tools:layout="@layout/fragment_carrito" />
+
+</navigation>

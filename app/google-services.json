@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "615097983748",
+    "project_id": "libertalia-310399",
+    "storage_bucket": "libertalia-310399.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615097983748:android:9e7b6094c021f240fb6651",
+        "android_client_info": {
+          "package_name": "com.estata.libertalia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615097983748-54282b20so6lk71m068adktmkvepojrr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.estata.libertalia",
+            "certificate_hash": "7d336282576465697784cd9a391767a10a5492ea"
+          }
+        },
+        {
+          "client_id": "615097983748-2sjrk2c5b0fhp495bch7pa38l05cbdrn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSkZ8rYo06vQYwjwwO4j8BO9r-7vR84cc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "615097983748-2sjrk2c5b0fhp495bch7pa38l05cbdrn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

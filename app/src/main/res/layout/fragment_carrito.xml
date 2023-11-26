@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.CarritoFragment"
+    android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvLista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/bg_bottom_carrito"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/tvPrecioTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total:$ 0"
+            android:textSize="50dp"/>
+
+        <Button
+            android:id="@+id/btnComprar"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="Comprar"
+            android:textSize="15dp"
+            android:backgroundTint="@color/moradoLibertalia"
+            android:layout_marginStart="25dp"/>
+    </LinearLayout>
+
+</LinearLayout>

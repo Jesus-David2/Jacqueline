@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.EditarProductoFragment"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edtNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="15"
+                android:hint="Nombre"
+                android:background="@drawable/bg_edittext"
+                android:layout_margin="25dp"
+                />
+
+            <EditText
+                android:id="@+id/edtDescripcion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="15"
+                android:hint="Descripcion"
+                android:background="@drawable/bg_edittext"
+                android:layout_margin="25dp"
+                />
+
+            <EditText
+                android:id="@+id/edtCategorias"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="15"
+                android:hint="Categoria1,Categoria2..."
+                android:background="@drawable/bg_edittext"
+                android:layout_margin="25dp"
+                />
+
+            <EditText
+                android:id="@+id/edtPrecio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="15"
+                android:hint="$ 0"
+                android:background="@drawable/bg_edittext"
+                android:layout_margin="25dp"
+                />
+
+            <EditText
+                android:id="@+id/edtTallas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="15"
+                android:hint="Talla1,Talla2..."
+                android:background="@drawable/bg_edittext"
+                android:layout_margin="25dp"
+                />
+
+            <EditText
+                android:id="@+id/edtColores"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="15"
+                android:hint="Color1,Color2..."
+                android:background="@drawable/bg_edittext"
+                android:layout_margin="25dp"
+                />
+
+            <ImageView
+                android:id="@+id/ivImagen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="25dp"
+                android:src="@android:drawable/ic_menu_gallery"
+                />
+
+            <Button
+                android:id="@+id/btnEditar"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:text="Editar"
+                android:textSize="15dp"
+                android:backgroundTint="@color/moradoLibertalia"
+                android:layout_margin="25dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
